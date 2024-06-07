@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@surely-vue/table": "^4.3.4",
+    "ant-design-vue": "^4.2.2",
+    "axios": "^1.7.2",
+    "moment": "^2.30.1",
+    "vue": "^3.4.21",
+    "vue-request": "^2.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "less": "^4.2.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  }
+}
